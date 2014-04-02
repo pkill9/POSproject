@@ -1,9 +1,13 @@
-solutions-mobile-backend-starter-android-client
+
+
+Point of Service App 
 =====================================
 
-This project is Android native client sample for Mobile Backend Starter.
+Using solutions-mobile-backend-starter-android-client backend code
 
-Disclaimer: This is not an official Google Product.
+
+
+This project is Android native client sample for Mobile Backend Starter.
 
 ## Products
 - [App Engine][1]
