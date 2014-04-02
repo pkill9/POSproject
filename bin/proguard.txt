@@ -1,0 +1,13 @@
+# view AndroidManifest.xml #generated:36
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+# view AndroidManifest.xml #generated:44
+-keep class com.google.cloud.backend.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.google.cloud.backend.sample.guestbook.GuestbookActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.google.cloud.backend.sample.guestbook.IntroductionActivity { <init>(...); }
+
