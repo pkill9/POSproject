@@ -1,4 +1,4 @@
-package com.google.cloud.backend.sample.guestbook;
+package com.google.cloud.backend.qwikserve;
 
 /**
  * Listener used by the introductory Fragments to interact with each other and

@@ -16,6 +16,7 @@ package com.google.cloud.backend.core;
 
 import com.google.api.client.util.DateTime;
 import com.google.cloud.backend.android.mobilebackend.model.EntityDto;
+import com.google.cloud.backend.qwikserve.Order;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -24,6 +25,7 @@ import java.util.Map;
 /**
  * A class that represents a cloud entity on App Engine Datastore.
  */
+
 public class CloudEntity {
 
     /**
@@ -66,6 +68,10 @@ public class CloudEntity {
     private Map<String, Object> properties = new HashMap<String, Object>();
 
     private String owner;
+    
+    private Order order;
+    
+    
 
     @SuppressWarnings("unchecked")
     protected static CloudEntity createCloudEntityFromEntityDto(EntityDto cd) {

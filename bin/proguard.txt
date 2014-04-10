@@ -1,13 +1,13 @@
-# view AndroidManifest.xml #generated:36
+# view AndroidManifest.xml #generated:34
 -keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:34
-# view AndroidManifest.xml #generated:44
+# view AndroidManifest.xml #generated:32
+# view AndroidManifest.xml #generated:42
 -keep class com.google.cloud.backend.GCMIntentService { <init>(...); }
 
-# view AndroidManifest.xml #generated:16
--keep class com.google.cloud.backend.sample.guestbook.GuestbookActivity { <init>(...); }
+# view AndroidManifest.xml #generated:14
+-keep class com.google.cloud.backend.POS { <init>(...); }
 
-# view AndroidManifest.xml #generated:22
--keep class com.google.cloud.backend.sample.guestbook.IntroductionActivity { <init>(...); }
+# view AndroidManifest.xml #generated:16
+-keep class com.google.cloud.backend.qwikserve.CookActivity { <init>(...); }
 

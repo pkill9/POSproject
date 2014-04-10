@@ -1,4 +1,4 @@
-package com.google.cloud.backend.sample.guestbook;
+package com.google.cloud.backend.qwikserve;
 
 import com.google.cloud.backend.R;
 import com.google.cloud.backend.core.CloudEntity;
@@ -16,7 +16,7 @@ import java.util.Locale;
 
 /**
  * This ArrayAdapter uses CloudEntities as items and displays them as a post in
- * the guestbook. Layout uses row.xml.
+ * the Order System. Layout uses row.xml.
  *
  */
 
@@ -33,6 +33,7 @@ public class PostAdapter extends ArrayAdapter<CloudEntity> {
      * @param textViewResourceId
      * @param objects
      */
+    
     public PostAdapter(Context context, int textViewResourceId, List<CloudEntity> objects) {
         super(context, textViewResourceId, objects);
         mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -63,6 +64,7 @@ public class PostAdapter extends ArrayAdapter<CloudEntity> {
         return this.getView(position, convertView, parent);
     }
 
+    
     /**
      * Gets the author field of the CloudEntity.
      *

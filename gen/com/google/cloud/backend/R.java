@@ -215,74 +215,49 @@ containing a value of this type.
         public static final int common_signin_btn_text_normal_light=0x7f020015;
         public static final int common_signin_btn_text_pressed_dark=0x7f020016;
         public static final int common_signin_btn_text_pressed_light=0x7f020017;
-        public static final int ic_launcher_guestbook=0x7f020018;
-        public static final int ic_left_arrow=0x7f020019;
-        public static final int ic_menu_guestbook=0x7f02001a;
-        public static final int ic_plusone_medium_off_client=0x7f02001b;
-        public static final int ic_plusone_small_off_client=0x7f02001c;
-        public static final int ic_plusone_standard_off_client=0x7f02001d;
-        public static final int ic_plusone_tall_off_client=0x7f02001e;
-        public static final int ic_right_arrow=0x7f02001f;
-        public static final int ic_send=0x7f020020;
-        public static final int img_connect=0x7f020021;
-        public static final int img_done=0x7f020022;
-        public static final int img_dots_1=0x7f020023;
-        public static final int img_dots_2=0x7f020024;
-        public static final int img_dots_3=0x7f020025;
-        public static final int img_guestbook_splash=0x7f020026;
-        public static final int img_logo_splash=0x7f020027;
+        public static final int ic_action_refresh=0x7f020018;
+        public static final int ic_launcher_guestbook=0x7f020019;
+        public static final int ic_left_arrow=0x7f02001a;
+        public static final int ic_menu_guestbook=0x7f02001b;
+        public static final int ic_plusone_medium_off_client=0x7f02001c;
+        public static final int ic_plusone_small_off_client=0x7f02001d;
+        public static final int ic_plusone_standard_off_client=0x7f02001e;
+        public static final int ic_plusone_tall_off_client=0x7f02001f;
+        public static final int ic_right_arrow=0x7f020020;
+        public static final int ic_send=0x7f020021;
+        public static final int img_connect=0x7f020022;
+        public static final int img_done=0x7f020023;
+        public static final int img_dots_1=0x7f020024;
+        public static final int img_dots_2=0x7f020025;
+        public static final int img_dots_3=0x7f020026;
+        public static final int img_guestbook_splash=0x7f020027;
+        public static final int img_logo_splash=0x7f020028;
     }
     public static final class id {
-        public static final int activity_main=0x7f060006;
-        public static final int announce_text=0x7f06000b;
-        public static final int checkbox=0x7f060020;
+        public static final int GridView=0x7f060009;
+        public static final int Refresh=0x7f06000c;
+        public static final int activity_main=0x7f060005;
+        public static final int announce_text=0x7f060007;
+        public static final int digitalClock1=0x7f06000b;
         public static final int hybrid=0x7f060004;
-        public static final int img_connect=0x7f060016;
-        public static final int img_dots_1=0x7f060011;
-        public static final int img_dots_2=0x7f060017;
-        public static final int img_dots_3=0x7f06001d;
-        public static final int intro_1_dscrp=0x7f06000f;
-        public static final int intro_1_next_btn=0x7f060012;
-        public static final int intro_1_text=0x7f06000d;
-        public static final int intro_1_title=0x7f06000e;
-        public static final int intro_2_dscrp=0x7f060015;
-        public static final int intro_2_next_btn=0x7f060019;
-        public static final int intro_2_prev_btn=0x7f060018;
-        public static final int intro_2_text=0x7f060013;
-        public static final int intro_2_title=0x7f060014;
-        public static final int intro_3_dscrp=0x7f06001c;
-        public static final int intro_3_prev_btn=0x7f06001e;
-        public static final int intro_3_text=0x7f06001a;
-        public static final int intro_3_title=0x7f06001b;
-        public static final int intro_done=0x7f06001f;
-        public static final int intro_frame=0x7f060005;
-        public static final int intro_guestbook=0x7f060010;
-        public static final int message=0x7f060008;
-        public static final int messageContent=0x7f060022;
-        public static final int no_messages=0x7f06000c;
+        public static final int messageContent=0x7f06000d;
+        public static final int no_messages=0x7f060008;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
-        public static final int posts_list=0x7f06000a;
         public static final int satellite=0x7f060002;
-        public static final int send_btn=0x7f060007;
-        public static final int separator=0x7f060009;
-        public static final int signature=0x7f060023;
-        public static final int switch_account=0x7f060024;
+        public static final int send_btn=0x7f06000a;
+        public static final int separator=0x7f060006;
+        public static final int signature=0x7f06000e;
+        public static final int switch_account=0x7f06000f;
         public static final int terrain=0x7f060003;
-        public static final int textView1=0x7f060021;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f080000;
         public static final int single_line=0x7f080001;
     }
     public static final class layout {
-        public static final int activity_introduction=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int fragment_intro_first=0x7f030002;
-        public static final int fragment_intro_second=0x7f030003;
-        public static final int fragment_intro_third=0x7f030004;
-        public static final int fragment_splash=0x7f030005;
-        public static final int row_post=0x7f030006;
+        public static final int activity_main=0x7f030000;
+        public static final int row_post=0x7f030001;
     }
     public static final class menu {
         public static final int activity_main=0x7f0a0000;
@@ -387,12 +362,6 @@ containing a value of this type.
         public static final int common_signin_button_text_long=0x7f070013;
         public static final int empty_string=0x7f070024;
         public static final int hello_world=0x7f07001c;
-        public static final int intro_1_dscrp=0x7f070027;
-        public static final int intro_1_title=0x7f070026;
-        public static final int intro_2_dscrp=0x7f070029;
-        public static final int intro_2_title=0x7f070028;
-        public static final int intro_3_dscrp=0x7f07002b;
-        public static final int intro_3_title=0x7f07002a;
         /**  Location client code resources (prefix with location_client) 
          */
         public static final int location_client_powered_by_google=0x7f07001a;
